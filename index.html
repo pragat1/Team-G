@@ -70,6 +70,25 @@
             <button class="remove-btn" onclick="removeImage()" title="Remove">✕</button>
             <img id="previewImg" src="" alt="Plant photo">
           </div>
+            <!-- Crop selector -->
+          <div class="crop-section" id="cropSection" style="display:none">
+            <span class="crop-section-label">Step 2 — Select Crop Type</span>
+            <div class="crop-grid">
+              <button class="crop-btn" data-crop="tomato" onclick="pickCrop(this)"><span class="ce">🍅</span>Tomato</button>
+              <button class="crop-btn" data-crop="rice" onclick="pickCrop(this)"><span class="ce">🌾</span>Rice</button>
+              <button class="crop-btn" data-crop="wheat" onclick="pickCrop(this)"><span class="ce">🌿</span>Wheat</button>
+              <button class="crop-btn" data-crop="potato" onclick="pickCrop(this)"><span class="ce">🥔</span>Potato</button>
+              <button class="crop-btn" data-crop="corn" onclick="pickCrop(this)"><span class="ce">🌽</span>Corn</button>
+              <button class="crop-btn" data-crop="cotton" onclick="pickCrop(this)"><span class="ce">☁️</span>Cotton</button>
+              <button class="crop-btn" data-crop="grape" onclick="pickCrop(this)"><span class="ce">🍇</span>Grape</button>
+              <button class="crop-btn" data-crop="mango" onclick="pickCrop(this)"><span class="ce">🥭</span>Mango</button>
+              <button class="crop-btn" data-crop="banana" onclick="pickCrop(this)"><span class="ce">🍌</span>Banana</button>
+              <button class="crop-btn" data-crop="sugarcane" onclick="pickCrop(this)"><span class="ce">🎋</span>Sugarcane</button>
+              <button class="crop-btn" data-crop="apple" onclick="pickCrop(this)"><span class="ce">🍎</span>Apple</button>
+              <button class="crop-btn" data-crop="soybean" onclick="pickCrop(this)"><span class="ce">🌱</span>Soybean</button>
+            </div>
+          </div>
+
 
 </body>
 </html>
