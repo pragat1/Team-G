@@ -104,5 +104,41 @@ Make sure you have the following installed:
 - [Git](https://git-scm.com/)
 - Python 3.9+ (if using the ML backend)
 
+### Installation
 
+1. **Clone the repository**
+```bash
+   git clone https://github.com/your-username/agri-detect.git
+   cd agri-detect
+```
+
+2. **Install frontend dependencies**
+```bash
+   npm install
+```
+
+3. **Set up environment variables**
+```bash
+   cp .env.example .env
+```
+   Fill in the required values in `.env`:
+```env
+   REACT_APP_API_URL=http://localhost:5000
+   REACT_APP_FIREBASE_KEY=your_firebase_key
+   REACT_APP_ML_MODEL_PATH=/models/crop_disease_model
+```
+
+4. **Set up the ML backend (optional for local AI)**
+```bash
+   cd ml-server
+   pip install -r requirements.txt
+   python app.py
+```
+
+5. **Start the development server**
+```bash
+   npm start
+```
+
+6. **Open in browser**
 
