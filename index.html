@@ -46,6 +46,30 @@
     </div>
   </div>
 </div>
+<!-- ════════ DETECT PAGE ════════ -->
+<div class="page active" id="page-detect">
+  <div class="container">
+    <div class="detect-grid">
+
+      <!-- LEFT: Upload -->
+      <div>
+        <div class="upload-card">
+          <div class="card-label">Step 1 — Upload Image</div>
+
+          <!-- Upload zone -->
+          <div class="upload-zone" id="uploadZone">
+            <input type="file" accept="image/*" id="fileInput" onchange="handleFile(this)">
+            <span class="upload-emoji">📷</span>
+            <h3>Tap to upload or drag & drop</h3>
+            <p>JPG, PNG, WEBP — any plant part</p>
+            <span class="upload-cta">Choose Photo</span>
+          </div>
+
+          <!-- Preview -->
+          <div class="preview-wrap" id="previewWrap">
+            <button class="remove-btn" onclick="removeImage()" title="Remove">✕</button>
+            <img id="previewImg" src="" alt="Plant photo">
+          </div>
 
 </body>
 </html>
