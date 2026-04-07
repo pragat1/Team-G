@@ -803,4 +803,3 @@ renderTips();
 showSeason(document.querySelector('.stab.active'));
 renderScansList();
 checkConn();
-</script>
