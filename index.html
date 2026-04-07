@@ -123,5 +123,42 @@
     </div>
   </div>
 </div>
+        <!-- ════════ DISEASE DATABASE ════════ -->
+<div class="page" id="page-database">
+  <div class="container">
+    <div class="section-head">
+      <h2>📚 Disease Database</h2>
+      <p>Browse 50+ crop diseases — symptoms, causes, and treatments</p>
+    </div>
+    <div class="search-wrap">
+      <span class="si">🔍</span>
+      <input type="text" id="dbSearch" placeholder="Search disease, crop, or symptom..." oninput="filterDB()">
+    </div>
+    <div class="filter-row" id="dbFilters">
+      <button class="fchip active" data-f="all" onclick="setFilter(this)">All</button>
+      <button class="fchip" data-f="tomato" onclick="setFilter(this)">🍅 Tomato</button>
+      <button class="fchip" data-f="rice" onclick="setFilter(this)">🌾 Rice</button>
+      <button class="fchip" data-f="wheat" onclick="setFilter(this)">🌿 Wheat</button>
+      <button class="fchip" data-f="potato" onclick="setFilter(this)">🥔 Potato</button>
+      <button class="fchip" data-f="corn" onclick="setFilter(this)">🌽 Corn</button>
+      <button class="fchip" data-f="cotton" onclick="setFilter(this)">☁️ Cotton</button>
+      <button class="fchip" data-f="grape" onclick="setFilter(this)">🍇 Grape</button>
+      <button class="fchip" data-f="mango" onclick="setFilter(this)">🥭 Mango</button>
+    </div>
+    <div class="db-grid" id="dbGrid"></div>
+  </div>
+</div>
+
+<!-- ════════ GROWTH TIPS ════════ -->
+<div class="page" id="page-tips">
+  <div class="container">
+    <div class="section-head">
+      <h2>💡 Growth Tips</h2>
+      <p>Expert advice to maximize yield and keep your crops healthy</p>
+    </div>
+    <div class="tips-grid" id="tipsGrid"></div>
+  </div>
+</div>
+
 </body>
 </html>
