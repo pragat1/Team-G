@@ -1,4 +1,4 @@
-# 🌾 Crop care — Smart Crop Health & Advisory Platform
+# 🌾 AgriDetect — Smart Crop Health & Advisory Platform
 
 <div align="center">
 
