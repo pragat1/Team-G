@@ -1,3 +1,6 @@
+/* ═══════════════════════════════════════════
+   DESIGN SYSTEM
+═══════════════════════════════════════════ */
 :root {
   --forest:   #1a3c2a;
   --canopy:   #2d6a4f;
@@ -25,6 +28,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; }
+
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   background: var(--cream);
@@ -321,7 +325,6 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
 /* ═══════════════════════════════════════════
    RESULT PANEL (right column)
 ═══════════════════════════════════════════ */
-.result-col {}
 
 .no-result-placeholder {
   background: #fff; border: 1px solid var(--border);
@@ -387,7 +390,6 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
 /* Result body sections */
 .result-body { padding: 20px; display: flex; flex-direction: column; gap: 16px; }
 
-.rb-section {}
 .rb-title {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: .72rem; font-weight: 800;
@@ -531,6 +533,7 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
 .sev-badge.low { background: #d4edda; color: #155724; }
 .db-card-body { padding: 14px 18px; }
 .db-card-body p { font-size: .82rem; color: var(--gray); line-height: 1.5; }
+
 /* ═══════════════════════════════════════════
    GROWTH TIPS
 ═══════════════════════════════════════════ */
