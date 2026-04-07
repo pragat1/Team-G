@@ -97,6 +97,31 @@
           </div>
         </div>
       </div>
+<!-- RIGHT: Results -->
+      <div class="result-col">
 
+        <!-- Placeholder -->
+        <div class="no-result-placeholder" id="noResultBox">
+          <span class="big-icon">🔬</span>
+          <h3>Ready to analyze</h3>
+          <p>Upload a photo and select your crop type to get an instant AI diagnosis with treatment recommendations.</p>
+        </div>
+
+        <!-- Result panel -->
+        <div class="result-panel" id="resultPanel"></div>
+
+        <!-- Scan history card -->
+        <div class="scans-card" id="scansCard">
+          <div class="scans-header">
+            Recent Scans
+            <button onclick="clearHistory()" style="background:none;border:none;font-size:.72rem;color:var(--warn);font-weight:700;cursor:pointer;">Clear</button>
+          </div>
+          <div id="scansList"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
