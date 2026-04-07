@@ -1,0 +1,27 @@
+:root {
+  --forest:   #1a3c2a;
+  --canopy:   #2d6a4f;
+  --leaf:     #40916c;
+  --mint:     #52b788;
+  --sage:     #95d5b2;
+  --mist:     #e8f5ee;
+  --cream:    #faf8f3;
+  --parchment:#f0ede4;
+  --soil:     #6b4226;
+  --warn:     #d4380d;
+  --amber:    #fa8c16;
+  --gold:     #faad14;
+  --sky:      #1677ff;
+  --ink:      #0d1f13;
+  --gray:     #6b7c6b;
+  --border:   #d6e8d6;
+  --shadow-sm: 0 1px 4px rgba(26,60,42,.08);
+  --shadow:    0 4px 20px rgba(26,60,42,.10);
+  --shadow-lg: 0 12px 40px rgba(26,60,42,.15);
+  --r:        16px;
+  --r-sm:     10px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
