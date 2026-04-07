@@ -13,5 +13,61 @@
 [🚀 Live Demo](#) • [📖 Documentation](#) • [🐛 Report Bug](../../issues) • [💡 Request Feature](../../issues)
 
 </div>
+---
+## 📋 Table of Contents
+
+- [About the Project](#-about-the-project)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [How It Works](#-how-it-works)
+- [Screenshots](#-screenshots)
+- [Multilanguage Support](#-multilanguage-support)
+- [Offline Functionality](#-offline-functionality)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [Team](#-team)
+- [License](#-license)
+
+---
+
+## 🌱 About the Project
+
+**AgriDetect** is a farmer-first web application built to bridge the technology gap in agriculture. Farmers across rural areas often struggle with identifying crop diseases early, lack access to expert advice, and have limited connectivity. AgriDetect solves all of these problems in one unified platform.
+
+By simply clicking a photo of their crop, farmers can instantly:
+- Know if their crop is diseased and what to do about it
+- Get personalized, season-based growth tips
+- Understand the best time to plant or harvest
+- Access all of this in their **native language** — even **offline**
+
+> *"The right information at the right time can save an entire harvest."*
+
+---
+
+## ✨ Key Features
+
+### 🔍 Crop Disease Detection
+- Click or upload a photo of any crop leaf, stem, or fruit
+- AI-powered image recognition instantly identifies the disease
+- Provides disease name, severity level, and recommended treatment
+- Supports 50+ crop types including wheat, rice, maize, tomato, potato, cotton, and more
+
+### 🌿 Growth Tips & Best Practices
+- Crop-specific guidance on soil preparation, watering, fertilization, and pest control
+- Expert-curated tips based on crop type and current growth stage
+- Actionable, easy-to-understand advice for all farmer skill levels
+
+### 📅 Seasonal Crop Guide
+- Month-by-month crop calendar for different regions
+- Recommends what to plant based on the current season and local climate
+- Alerts for upcoming frost, monsoon, or drought conditions
+- Optimal planting and harvesting windows
+
+### 📡 Offline Mode
+- Full functionality available without an internet connection
+- Core models and disease database cached locally using Service Workers
+- Syncs data and updates automatically when connectivity is restored
+- Designed for low-bandwidth and no-bandwidth environments
 
 
