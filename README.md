@@ -70,4 +70,39 @@ By simply clicking a photo of their crop, farmers can instantly:
 - Syncs data and updates automatically when connectivity is restored
 - Designed for low-bandwidth and no-bandwidth environments
 
+### 🌐 Multilanguage Support
+- Available in **10+ Indian and global languages**
+- Languages include: Hindi, Punjabi, Tamil, Telugu, Kannada, Marathi, Bengali, Gujarati, Odia, and English
+- Language auto-detection based on device locale
+- Easy language switcher in the UI
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **Frontend** | HTML5, CSS3, JavaScript (Vanilla / React) |
+| **AI / ML** | TensorFlow.js / Python (ML model for disease detection) |
+| **Backend** | Node.js / Flask (API layer) |
+| **Database** | Firebase / MongoDB (crop & disease data) |
+| **Offline Support** | Service Workers, PWA, IndexedDB |
+| **i18n (Multilanguage)** | i18next / React-Intl |
+| **Camera Access** | Web API (MediaDevices / getUserMedia) |
+| **Hosting** | Vercel / Firebase Hosting |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or above)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+- Python 3.9+ (if using the ML backend)
+
+
 
