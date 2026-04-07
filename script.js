@@ -1,4 +1,3 @@
-<script>
 // ════════════════════════════════════════════════
 //  COMPLETE DISEASE DATABASE — 50+ diseases
 //  Key improvement: each crop has its OWN disease
